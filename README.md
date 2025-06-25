@@ -1,1 +1,0 @@
-# DevOps-intern-assignment
