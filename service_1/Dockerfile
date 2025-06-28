@@ -14,5 +14,5 @@ RUN apk --no-cache add ca-certificates
 WORKDIR /root/
 COPY --from=builder /service1 .
 
-EXPOSE 80
+EXPOSE 8080
 CMD ["./service1"]
