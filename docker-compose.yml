@@ -17,7 +17,7 @@ services:
       - app-network
     healthcheck:
       test: ["CMD", "wget", "--spider", "http://localhost:8080/health"]
-      interval: 15s
+      interval: 10s
       timeout: 5s
       retries: 3
 
