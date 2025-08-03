@@ -19,7 +19,7 @@ services:
       test: ["CMD", "wget", "--spider", "http://localhost:8080/health"]
       interval: 10s
       timeout: 5s
-      retries: 3
+      retries: 4
 
   service2:
     build: ./service_2
